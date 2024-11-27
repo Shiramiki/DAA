@@ -269,14 +269,14 @@ class Task:
 # # Example system
 system = System()
 # Additional example tasks for testing
-task8 = Task("Task 8", "academic", datetime(2024, 11, 22, 14, 30), datetime(2024, 11, 22, 16, 0), 5, 1)
-task9 = Task("Task 9", "personal", datetime(2024, 11, 20, 10, 0), datetime(2024, 11, 23, 12, 0), 3, 4)
-task10 = Task("Task 10", "personal", datetime(2024, 11, 24, 7, 0), datetime(2024, 11, 24, 8, 0), 2, 2)
-task11 = Task("Task 11", "academic", datetime(2024, 11, 24, 8, 30), datetime(2024, 11, 20, 9, 57), 1, 1)
-task12 = Task("Task 12", "personal", datetime(2024, 11, 25, 12, 0), datetime(2024, 11, 25, 14, 0), 4, 2)
-task13 = Task("Task 13", "academic", datetime(2024, 11, 25, 15, 0), datetime(2024, 11, 25, 17, 0), 6, 3)
-task14 = Task("Task 14", "personal", datetime(2024, 11, 20, 9, 56), datetime(2024, 11, 26, 10, 0), 3, 1)
-task15 = Task("Task 15", "academic", datetime(2024, 11, 27, 13, 0), datetime(2024, 11, 27, 15, 0), 4, 2)
+task8 = Task("Task 8", "academic", datetime(2024, 11, 27, 14, 30), datetime(2024, 11, 27, 16, 0), 5, 1)
+task9 = Task("Task 9", "personal", datetime(2024, 11, 26, 10, 0), datetime(2024, 11, 26, 12, 0), 3, 4)
+task10 = Task("Task 10", "personal", datetime(2024, 11, 28, 7, 0), datetime(2024, 11, 29, 8, 0), 2, 2)
+task11 = Task("Task 11", "academic", datetime(2024, 11, 29, 8, 30), datetime(2024, 11, 30, 9, 57), 1, 1)
+task12 = Task("Task 12", "personal", datetime(2024, 11, 26, 12, 0), datetime(2024, 11, 27, 14, 0), 4, 2)
+task13 = Task("Task 13", "academic", datetime(2024, 11, 25, 15, 0), datetime(2024, 11, 27, 17, 0), 6, 3)
+task14 = Task("Task 14", "personal", datetime(2024, 11, 26, 9, 56), datetime(2024, 11, 27, 10, 0), 3, 1)
+task15 = Task("Task 15", "academic", datetime(2024, 11, 27, 13, 0), datetime(2024, 11, 28, 15, 0), 4, 2)
 
 # Add the new tasks to the system
 system.add_task_sorted(task8)
